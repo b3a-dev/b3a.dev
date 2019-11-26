@@ -6,6 +6,26 @@
 {{ "<!-- Contact Section Start -->" | safeHTML }}
 <section id="contact-section">
     <div class="container">
+    <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <div class="contacticons address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
+                    <i class="ion-social-twitter"></i>
+                    {{ with .Site.Data.contact.twitter }}<h5>{{ . }}</h5>{{ end }}
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <div class="contacticons address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+                    <i class="ion-social-github"></i>
+                    {{ with .Site.Data.contact.github }}<h5>{{ . }}</h5>{{ end }}
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <div class="contacticons email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
+                    <i class="ion-ios-paper"></i>
+                    <p>{{ with .Site.Data.contact.medium }}{{ . }}{{ end }}</p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12 mb-10 mb-md-0">
                 <div class="block">
@@ -43,34 +63,6 @@
                             </div>
                         </form>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row address-details">
-            <div class="col-lg-3 col-sm-6">
-                <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
-                    <i class="ion-ios-location-outline"></i>
-                    {{ with .Site.Data.contact.officeAddress1 }}<h5>{{ . }}</h5>{{ end }}
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
-                    <i class="ion-ios-location-outline"></i>
-                    {{ with .Site.Data.contact.officeAddress2 }}<h5>{{ . }}</h5>{{ end }}
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
-                    <i class="ion-ios-email-outline"></i>
-                    <p>{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}
-                        <br>{{ with .Site.Data.contact.mail2 }}{{ . }}{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
-                    <i class="ion-ios-telephone-outline"></i>
-                    <p>{{ with .Site.Data.contact.phone1 }}{{ . }}{{ end }}
-                        <br>{{ with .Site.Data.contact.phone2 }}{{ . }}{{ end }}</p>
                 </div>
             </div>
         </div>
