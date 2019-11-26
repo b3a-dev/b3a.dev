@@ -62,7 +62,7 @@ theme = "timer-hugo"
     [params.about]
         enable  = true
         title   = "ABOUT ME"
-        content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        content = "Dedicated to architecture and innovation focused on cloud environments, I am an advocate for women in technology. <br> <br> Insatiable learner, I love to get involved with open source communities and contribute mainly as Speaker at technical community events. I am aiming to bring any of my ideas to life with code."
         image   = "images/about/about.jpg"
 
     # Call to Action
@@ -76,19 +76,19 @@ theme = "timer-hugo"
     # Portfolio Section On Homepage
     [params.portfolio]
         enable  = true
-        title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+        title   = "Latest Contributions"
+        subtitle= "I would like to share some of my latest posts, talks at technical events, interviews and my most recent projects."
 
     [params.footer]
         [[params.footer.socialIcon]]
-            icon = "ion-social-facebook"
-            url = "#"
+            icon = "ion-social-twitter"
+            url = "https://twitter.com/beatrizmrg?"
 
         [[params.footer.socialIcon]]
-            icon = "ion-social-instagram"
-            url = "#"
+            icon = "ion-social-github"
+            url = "https://github.com/b3a-dev"
 
         [[params.footer.socialIcon]]
-            icon = "ion-social-linkedin"
-            url = "#"
+            icon = "ion-ios-paper"
+            url = "https://medium.com/@beatrizmrg"
 
