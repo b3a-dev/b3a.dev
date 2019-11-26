@@ -1,7 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "b3a-dev"
 theme = "timer-hugo"
+
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -38,23 +39,24 @@ theme = "timer-hugo"
     description = "Airspace Hugo theme"
     author = "Themefisher"
     # Google Analitycs
-    googleAnalitycsID = "Your ID"
+    googleAnalitycsID = "216514407"
+
 
     # Banner Section
     [params.banner]
         enable  = true
         bgImage = "images/slider.jpg"
-        heading = "HI, MY NAME IS JONATHON & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        heading = "HI, MY NAME IS BEATRIZ & I AM A"
+        description = "INSATIABLE LEARNER, PASSIONATE ABOUT TECHNOLOGY AND INNOVATION, I LOVE TO GET INVOLVED WITH OPEN SOURCE COMMUNITIES. THIS SITE SHOWCASES SOME OF MY CONTRIBUTIONS."
         btn     = true
         btnText = "Download More"
         btnURL  = "https://themefisher.com/"
         [[params.banner.flipText]]
-            title   = "DESIGNER"
+            title   = "SPEAKER"
         [[params.banner.flipText]]
             title   = "DEVELOPER"
         [[params.banner.flipText]]
-            title   = "FATHER"
+            title   = " WOMEN IN TECH"
 
     # Homepage About Section
     [params.about]
@@ -89,3 +91,4 @@ theme = "timer-hugo"
         [[params.footer.socialIcon]]
             icon = "ion-social-linkedin"
             url = "#"
+

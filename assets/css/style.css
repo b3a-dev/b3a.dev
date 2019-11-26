@@ -1,19 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Glegoo);
 
 /* Custom:
-Also edited two files to add class for the logo:
-  - themes/timer-hugo/layouts/404.html
-  - themes/timer-hugo/layouts/partials/header.html
+Also copied and edited two files to add class for the logo:
+  - themes/timer-hugo/layouts/404.html --> layouts/404.html
+  - themes/timer-hugo/layouts/partials/header.html --> layouts/partials/header.html
 */
 
 .site-icon {
-  width: 35%;
+  /* width: 220px; */
+  width: 10em;
 }
 
-
-/* Default configured with timer-hugo theme */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Glegoo);
 
 body {
   font-family: "Roboto", sans-serif;
