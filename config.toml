@@ -69,7 +69,7 @@ theme = "timer-hugo"
     [params.cta]
         enable  = true
         title   = "SO WHAT YOU THINK ?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        content = "Any project in mind that you would like to share?, would you like to propose a part2 for some of the posts?, do you have questions related to any of the contents?, please let me know. And thank you in advance for any suggestions or advice."
         btnText = "Contact with me"
         btnURL  = "/contact"
 
