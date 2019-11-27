@@ -72,6 +72,51 @@ theme = "timer-hugo"
         content = "Any project in mind that you would like to share?, would you like to propose a part2 for some of the posts?, do you have questions related to any of the contents?, please let me know. And thank you in advance for any suggestions or advice."
         btnText = "Contact with me"
         btnURL  = "/contact"
+    
+    # Team section on Homepage
+    [params.team]
+        enable = true
+        title = "MEET THE TEAM"
+
+        [[members]]
+        name = "Jonathon Andrew"
+        image = "images/team/team-1.jpg"
+        designation = "CEO, Project Manager"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        facebook = "https://www.fb.com/themefisher"
+        twitter = "https://www.twitter.com/themefisher"
+        linkedIn = "https://www.linkedin.com/themefisher"
+        googleplus = "https://plus.google.com/themefisher"
+
+        [[members]]
+        name = "Jesmin Martina"
+        image = "images/team/team-2.jpg"
+        designation = "CEO, Project Manager"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        facebook = "https://www.fb.com/themefisher"
+        twitter = "https://www.twitter.com/themefisher"
+        linkedIn = "https://www.linkedin.com/themefisher"
+        googleplus = "https://plus.google.com/themefisher"
+
+        [[members]]
+        name = "Deu John"
+        image = "images/team/team-3.jpg"
+        designation = "CEO, Project Manager"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        facebook = "https://www.fb.com/themefisher"
+        twitter = "https://www.twitter.com/themefisher"
+        linkedIn = "https://www.linkedin.com/themefisher"
+        googleplus = "https://plus.google.com/themefisher"
+
+        [[members]]
+        name = "Anderson Martin"
+        image = "images/team/team-4.jpg"
+        designation = "CEO, Project Manager"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        facebook = "https://www.fb.com/themefisher"
+        twitter = "https://www.twitter.com/themefisher"
+        linkedIn = "https://www.linkedin.com/themefisher"
+        googleplus = "https://plus.google.com/themefisher"
 
     # Portfolio Section On Homepage
     [params.portfolio]

@@ -32,6 +32,12 @@ Also copied and edited two files to add class for the logo:
   background: none!important;
 }
 
+#team {
+  margin: 50px 0;
+  background: 
+  #fcfcfc;
+}
+
 /* Default style */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
