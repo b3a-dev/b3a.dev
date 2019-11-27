@@ -13,31 +13,33 @@
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
                     {{ with .image }}
                     <div class="team-img">
-                        <img src="{{ . | absURL }}" class="team-pic" alt="team-member">
+                        <img src="{{ . | absURL }}" class="team-pic" alt="event">
                     </div>
                     {{ end }}
                     {{ with .name }}<h3 class="team_name">{{ . }}</h3>{{ end }}
-                    {{ with .designation }}<p class="team_designation">{{ . }}</p>{{ end }}
+                    {{ with .date }}<div class="team_designation">{{ . }}</div>{{ end }}
+                    {{ with .event }}<p class="team_designation">{{ . }}</p>{{ end }}
+                    
                     {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
                     <p class="social-icons">
-                        {{ with .facebook }}
+                        {{ with .youtube }}
                         <a href="{{ . }}" class="facebook" target="_blank">
-                            <i class="ion-social-facebook-outline"></i>
+                            <i class="ion-social-youtube"></i>
                         </a>
                         {{ end }}
-                        {{ with .twitter }}
+                        {{ with .medium }}
                         <a href="{{ . }}" target="_blank">
-                            <i class="ion-social-twitter-outline"></i>
+                            <i class="ion-ios-paper"></i>
                         </a>
                         {{ end }}
-                        {{ with .linkedIn }}
+                        {{ with .slides }}
                         <a href="{{ . }}" target="_blank">
-                            <i class="ion-social-linkedin-outline"></i>
+                            <i class="ion-android-document"></i>
                         </a>
                         {{ end }}
-                        {{ with .googleplus }}
+                        {{ with .linktotweet }}
                         <a href="{{ . }}" target="_blank">
-                            <i class="ion-social-googleplus-outline"></i>
+                            <i class="ion-social-twitter"></i>
                         </a>
                         {{ end }}
                     </p>
