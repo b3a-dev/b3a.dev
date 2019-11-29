@@ -33,7 +33,9 @@
                         <p>
                             {{ .Summary }}
                         </p>
-                        {{ with .Params.mediumlink }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue Reading</a>{{ end }}
+                        {{ with .Params.youtube }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-youtube"></i> Recording</a>{{ end }}
+                        {{ with .Params.slides }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-android-document"></i> Slides</a>{{ end }}
+                        {{ with .Params.linktotweet }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>{{ end }}
                     </div>
                 </article>
                 {{ end }}
