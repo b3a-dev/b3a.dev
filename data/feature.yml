@@ -1,34 +1,19 @@
 enable  : true
-title   : Offer From Me
+title   : Shared
 subtitle: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, <br> quasi dolores numquam dolor vero ex, tempora commodi      repellendus quod laborum.
+  These are the types of content that you can expect from me.
 item    :
-  - icon  : ion-ios-flask-outline
-    title : Media heading
+  - icon  : ion-ios-mic-outline
+    title : Talks
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+      I love to contribute with public speaking at technical events. The topics vary within technology environment.
 
-  - icon  : ion-ios-lightbulb-outline
-    title : Well documented.
+  - icon  : ion-ios-paper-outline
+    title : Posts
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+      Posts vary from new technologies review to guided tutorials. Do not hesitate in contact me with suggestions.
 
-  - icon  : ion-ios-americanfootball-outline
-    title : Free updates
+  - icon  : ion-social-github-outline
+    title : open-source projects
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
-
-  - icon  : ion-ios-keypad-outline
-    title : Solid Support
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
-
-  - icon  : ion-ios-barcode-outline
-    title : Simple Installation
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
-  
-  - icon  : ion-ios-lightbulb-outline
-    title : Well documented.
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+      This is a work in progress..., I am aiming to bring any of my ideas to life with code.
