@@ -1,4 +1,4 @@
-baseURL = "https://b3a.dev/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "b3a-dev"
 theme = "timer-hugo"
