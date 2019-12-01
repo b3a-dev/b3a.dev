@@ -18,9 +18,16 @@
                                     href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
                             </li>
                             {{ range .Site.Menus.nav }}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
-                            </li>
+                                {{if eq .URL "about"}}
+                                <li class="nav-item">
+                                    <a  class="nav-link"  href="/#{{ .URL }}">{{ .Name }}</a>
+                                </li>
+                                {{ else }}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                                    </a>
+                                </li>
+                                {{ end }}
                             {{ end }}
                     </div>
                 </nav>
