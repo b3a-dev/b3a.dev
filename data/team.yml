@@ -10,7 +10,8 @@ members  :
     youtube    : https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
     slides  : /slides/cloud_native_monitoring_with_prometheus_Codemotion_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23commitconf&url=https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
-  
+    linktodetail: /talks/commit-conf-2019/
+
   - name  : Cloud-native Monitoring with Prometheus
     image : images/contributions/codemotion2019_1.jpg
     date : September 25, 2019
@@ -19,6 +20,7 @@ members  :
     youtube    : https://youtu.be/ZGckorAJ1IQ
     slides  : /slides/cloud_native_monitoring_with_prometheus_Codemotion_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23codemoMadrid&url=https://youtu.be/ZGckorAJ1IQ
+    linktodetail: /talks/codemotion-2019/
 
   - name  : Back to the Future with eBPF
     image : images/contributions/CNCFmeetup_eBPF.jpg
@@ -26,6 +28,7 @@ members  :
     event : Cloud Native Madrid Meetup
     description : Is it possible that the future of networking and security in Microservices will be based on technology from the past? Several open-source Kubernetes tools are already using eBPF. Mainly related to networking, monitoring, and security. This talk will guide you from the understanding of Linux kernel BPF concept, through the advantages and features that bring to microservices environments, to some known tools that currently make use of it, such Cilium, Weave or Istio.
     slides  : /slides/Back_to_the_future_with_eBPF_CNCFmeetup_2019.pdf
+    linktodetail: /talks/cncfmeetup-jun-2019/
 
   - name  : Back to the Future with eBPF
     image : images/contributions/kubeconEU2019_2.jpg
@@ -35,6 +38,7 @@ members  :
     youtube    : https://youtu.be/AQNz_16CaiI
     slides  : /slides/Back_to_the_Future_with_eBPF_KubeCon_Europe_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Back%20to%20the%20Future%20with%20eBPF”%20by%20%40beatrizmrg%20%23eBPF%20%23KubeCon%20%23CloundNativeCon&url=https://youtu.be/AQNz_16CaiI
+    linktodetail: /talks/kubeconeu-2019/
 
   - name  : Network security for microservices with eBPF
     image : images/contributions/ebpf.png
@@ -43,6 +47,7 @@ members  :
     description : Several open-source Kubernetes tools are already using eBPF. Mainly related to networking, monitoring, and security. The intention of this post is not to provide complete coverage of all eBPF aspects, but rather tries to be a informational starting point guide, from the understanding of Linux kernel BPF concept, through the advantages and features that brings to microservices environments, to some known tools that currently make use of it, such Cilium or Weave.
     medium    : https://medium.com/@beatrizmrg/network-security-for-microservices-with-ebpf-bis-478b40e7befa
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20post:%20“Network%20security%20for%20microservices%20with%20eBPF”%20by%20%40beatrizmrg%20%23eBPF&url=https://medium.com/@beatrizmrg/network-security-for-microservices-with-ebpf-bis-478b40e7befa
+    linktodetail: https://medium.com/@beatrizmrg/network-security-for-microservices-with-ebpf-bis-478b40e7befa
 
   - name  : Cloud-native Monitoring with Prometheus
     image : images/contributions/devopsSpain2019.jpg
@@ -52,6 +57,7 @@ members  :
     youtube    : https://youtu.be/3H7CXQBrGpM
     slides  : /slides/Cloud_Native_Monitoring_With_Prometheus_devOpsSpain_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23DevopsSpain&url=https://youtu.be/3H7CXQBrGpM
+    linktodetail: /talks/devops-spain-2019/
 
   - name  : Gaining efficiency with iTerm Prompt customization on MacOS
     image : images/contributions/iTerm.png
@@ -60,6 +66,7 @@ members  :
     description : I recently moved from Ubuntu to MacOS and found a whole new world of gestures and shortcuts that really made me work at a different level speed, so I decided to explore also new possibilities for my terminal. I moved from Terminator, which I used for years in Ubuntu with a common bash prompt. In the process of setting up my new laptop I tested several options and I found that iTerm and Oh-my-zsh were the right choices for me.
     medium    : https://medium.com/@beatrizmrg/gaining-efficiency-with-iterm-prompt-customization-on-macos-3ad212f5bfde
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20post:%20“Gaining%20efficiency%20with%20iTerm%20Prompt%20customization%20on%20MacOS”%20by%20%40beatrizmrg&url=https://medium.com/@beatrizmrg/gaining-efficiency-with-iterm-prompt-customization-on-macos-3ad212f5bfde
+    linktodetail: https://medium.com/@beatrizmrg/gaining-efficiency-with-iterm-prompt-customization-on-macos-3ad212f5bfde
 
   - name  : From Hiring to Production
     image : images/contributions/fromHiringToProductionCommit2018.jpg
@@ -67,6 +74,7 @@ members  :
     event : Commit-Conf
     description : You need to carry out a project with a new team and want it to be productive from day zero, however the steps necessary to achieve it are not easy. Starting by finding the profiles that will be part of your team. How to design an effective selection process? Will they be the right people? Will i have been wrong? Once inside we want them to write commits and contribute ideas as soon as possible and for this it will be important to make a good on-boarding process.
     slides  : /slides/From_Hiring_to_Production_commitConf_2018.pdf
+    linktodetail: /talks/commit-conf-2018/
 
   - name  : How may I help you?
     image : images/contributions/assistants2018.png
@@ -74,6 +82,7 @@ members  :
     event : Tech SHEssions Meetup
     description : Nowadays, Artificial Intelligence Assistants have become part of our day a day lives. Alexa (Amazon), Siri (Apple), Watson assistant(IBM), Google assistant (Google), Cortana (MS), we ask them to call someone while we are driving, to get us to a place, to play some music, but also to show us pictures of us with John Doe, and they recognise him in the pictures and show us only those in which he is present, we also ask for the purchase in the supermarket and the products are delivered home hours later… This talk pursues to raise awareness of the huge amount of data we provide and the dangerous possible consequences. And also how accessible is this technology by showcasing how to build a AI powered bot with Google assistant.
     slides  : /slides/How_may_I_help_yout_2018.pdf
+    linktodetail: /talks/techshessionsmeetup-oct-2018/
 
   - name  : Learning Blockchain from the inside
     image : images/contributions/blockchain2018.jpg
@@ -81,6 +90,7 @@ members  :
     event : Tech SHEssions Meetup
     description : What a better way to learn about blockchain that implementing one? This talk is distributed in three sections and covers from basic concepts, to all those fancy words that souround blockchain nowadays, explaining them in a simple way. The implementation examples are in python, and use Docker containers as deployment method. Once we have our chain we do not only want to interact with it, we also want to build a whole network, working with the consensus algorithm.
     slides  : /slides/Learning_blockchain_from_the_inside_2018.pdf
+    linktodetail: /talks/techshessionsmeetup-jul-2018/
 
   - name  : The other side of the table
     image : images/contributions/theothersideofthetable2018.jpg
@@ -88,6 +98,7 @@ members  :
     event : Tech SHEssions Meetup
     description : Everyone of us have been a candidate in a selection process after applying for a position in a company, having to pass several interviews and tech tests. But, what happens when you are the one at the other side of the table? This talk shares with real life examples how to face the desing of a selection process, from profiles definition to technical aptitude test, how to get "the truth" out of your candidates :)
     slides  : /slides/The_other_side_of_the_table_2018.pdf
+    linktodetail: /talks/techshessionsmeetup-jun-2018/
 
   - name  : Alcanzando la madurez con equipos agile
     image : images/contributions/t3chfest2018.jpg
@@ -95,3 +106,4 @@ members  :
     event : T3chFest open space
     description : It's trending topic, and you also want to transform your team and start seeing all the advantages of the agile world, but it is not enough to call a few daily meetings, beers for retrospective sessions and enforce a demo session in addition to writing a list of tasks in the left column and fill it all with Postits. It is necessary to work together and travel a long journey to the top of the team's success and reach its maturity. I will share the experience of expectations compared to reality and what can be expected when transforming a team's way of working
     slides  : /slides/Alcanzando_la_madurez_con_equipos_agile_T3chFest_2018.pdf
+    linktodetail: /talks/t3chfest-2018/

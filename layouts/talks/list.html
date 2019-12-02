@@ -10,13 +10,13 @@
                 <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
                     
                     <div class="blog-post-image">
-                        <a href="{{ .Params.mediumlink }}">
+                        <a href="{{ .Permalink }}">
                              {{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
                         </a>
                     </div>
                     <div class="blog-content">
                         <h2 class="blogpost-title">
-                            <a href="{{ .Params.mediumlink }}">{{ .Title }}</a>
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
                         </h2>
                         <div class="blog-meta">
                             <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>

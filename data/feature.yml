@@ -5,11 +5,13 @@ subtitle: >
 item    :
   - icon  : ion-ios-mic-outline
     title : Talks
+    url: talks
     description : >
       I love to contribute with public speaking at technical events. The topics vary within technology environment.
 
   - icon  : ion-ios-paper-outline
     title : Posts
+    url: blog
     description : >
       Posts vary from new technologies review to guided tutorials. Do not hesitate in contact me with suggestions.
 

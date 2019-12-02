@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>{{ .Title }}</h1>
+                    <div class="portfolio-meta">
+                        <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
+                        <span>
+                            {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="single-post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ with .Params.image }}
+                <div class="post-img">
+                    <img class="img-fluid" alt="" src="{{ . | absURL }}">
+                </div>
+                {{ end }}
+                <div class="post-content">
+                    {{ .Content }}
+                </div>
+                <p><h2>Slides</h2><style>.embed-container { position: relative; padding-bottom: 58.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style></p>
+                {{ with .Params.googleslides }}<div class="embed-container"><iframe src="{{ . }}" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" frameborder="0"></iframe></div>{{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ end }}

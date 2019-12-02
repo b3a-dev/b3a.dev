@@ -5,6 +5,14 @@ Also copied and edited two files to add class for the logo:
   - themes/timer-hugo/layouts/partials/header.html --> layouts/partials/header.html
 */
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
 .site-icon {
   /* width: 220px; */
   width: 10em;
@@ -12,7 +20,7 @@ Also copied and edited two files to add class for the logo:
 
 .indexbuttoncontact {
   color: #333;
-  font-size: 45px;
+  font-size: 35px;
   margin: 1em;
 }
 
@@ -32,10 +40,35 @@ Also copied and edited two files to add class for the logo:
   background: none!important;
 }
 
+#quicklinks .btn {
+  background: #02bdd5 !important;
+  color: #fff !important;
+  padding: 8px 18px !important;
+  border-radius: 0 !important;
+  margin-top: 50px !important;
+  border: 1px solid #fff !important;
+  box-shadow: 0 0 0 1px #02bdd5 !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 #team {
   margin: 50px 0;
-  background: 
-  #fcfcfc;
+  padding: 80px 0;
+  background-color: white;
+}
+
+.sharedicons {
+  color: #fff;
+}
+
+#hero-area h1 {
+  font-size: 30px !important;
+}
+
+#hero-area {
+  padding-top: 230px !important;
+  padding-bottom: 130px !important;
 }
 
 /* Default style */
