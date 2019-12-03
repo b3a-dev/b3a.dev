@@ -35,7 +35,7 @@ theme = "timer-hugo"
     description = "Airspace Hugo theme"
     author = "Themefisher"
     # Google Analitycs
-    googleAnalitycsID = "216514407"
+    googleAnalitycsID = "G-4PV7KH6BP9"
 
 
     # Banner Section
@@ -65,7 +65,7 @@ theme = "timer-hugo"
     [params.cta]
         enable  = true
         title   = "SO WHAT DO YOU THINK ?"
-        content = "Would you like to propose a part2 for some of the posts? Questions related to any of the contents? Thank you in advance for any suggestions or advice."
+        content = "Would you like to propose a part2 for some of the posts? Questions related to any of the contents?<br> Thank you in advance for any suggestions or advice."
         btnText = "Contact with me"
         btnURL  = "/contact"
     
