@@ -2,6 +2,8 @@ baseURL = "https://b3a.dev/"
 languageCode = "en-us"
 title = "b3a-dev"
 theme = "timer-hugo"
+# Google Analitycs
+googleAnalitycsID = "G-4PV7KH6BP9"
 
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -34,9 +36,6 @@ theme = "timer-hugo"
     # Meta data
     description = "Airspace Hugo theme"
     author = "Themefisher"
-    # Google Analitycs
-    googleAnalitycsID = "G-4PV7KH6BP9"
-
 
     # Banner Section
     [params.banner]
