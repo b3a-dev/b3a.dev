@@ -53,6 +53,10 @@ Also copied and edited two files to add class for the logo:
   margin-left: -4px;
 }
 
+#bannermainbuttonrow{
+  margin-top: 80px;
+}
+
 .indexbuttonbanner{
   margin: 0.5em;
   text-decoration: none;
