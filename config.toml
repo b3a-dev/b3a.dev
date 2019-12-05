@@ -41,17 +41,18 @@ googleAnalitycsID = "G-4PV7KH6BP9"
     [params.banner]
         enable  = true
         bgImage = "images/slider.jpg"
-        heading = "HI, MY NAME IS BEATRIZ & I AM A"
+        # heading = "HI, MY NAME IS BEATRIZ & I AM A"
+        heading = "Discover something new"
         # description = "INSATIABLE LEARNER, PASSIONATE ABOUT TECHNOLOGY AND INNOVATION, I LOVE TO GET INVOLVED WITH OPEN SOURCE COMMUNITIES. THIS SITE SHOWCASES SOME OF MY CONTRIBUTIONS."
         btn     = true
         btnText = "Download More"
         btnURL  = "https://themefisher.com/"
         [[params.banner.flipText]]
-            title   = "SPEAKER"
+            # title   = "SPEAKER"
         [[params.banner.flipText]]
-            title   = "DEVELOPER"
+            # title   = "DEVELOPER"
         [[params.banner.flipText]]
-            title   = " WOMEN IN TECH"
+            # title   = " WOMEN IN TECH"
 
     # Homepage About Section
     [params.about]
