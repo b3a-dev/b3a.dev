@@ -36,8 +36,7 @@
                                 <p>
                                     {{ .Summary }}
                                 </p>
-                                {{ with .Params.youtube }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-youtube"></i> Recording</a>{{ end }}
-                                {{ with .Params.slides }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-android-document"></i> Slides</a>{{ end }}
+                                <a href="{{ .Permalink }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-ios-mic"></i> Continue watching</a>
                                 {{ with .Params.linktotweet }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>{{ end }}
                             </div>
                         </div>
