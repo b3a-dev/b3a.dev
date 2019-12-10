@@ -12,6 +12,9 @@ googleslides: https://docs.google.com/presentation/d/e/2PACX-1vQ7NaGDkpGalizrnRY
 In the world of cloud-native applications and microservices, Prometheus has become the standard for monitoring.
 
 This talk shows why, and what differentiates it from the more traditional approaches. How it can be used to monitor both systems and applications, and how to develop prometheus-native applications. It also shows how to integrate Alertmanager with other alert systems or incident management systems already deployed.
+<div class="blog-content singleiconp">
+    <a href="http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23codemoMadrid&url=https://b3a.dev/talks/devops-spain-2019/" target="_blank" class="talklisticons btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>
+</div>
 
 <br/>
 <br/>

@@ -12,7 +12,9 @@ googleslides: https://docs.google.com/presentation/d/e/2PACX-1vQ2TnihWeinNl3lou5
 Is it possible that the future of networking and security in Microservices will be based on technology from the past? 
 
 Several open-source Kubernetes tools are already using eBPF. Mainly related to networking, monitoring, and security. This talk will guide you from the understanding of Linux kernel BPF concept, through the advantages and features that bring to microservices environments, to some known tools that currently make use of it, such Cilium, Weave or Istio.
-
+<div class="blog-content singleiconp">
+    <a href="http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23codemoMadrid&url=https://b3a.dev/talks/kubeconeu-2019/" target="_blank" class="talklisticons btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>
+</div>
 
 <br/>
 <br/>

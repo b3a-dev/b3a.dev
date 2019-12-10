@@ -10,7 +10,9 @@ googleslides: https://docs.google.com/presentation/d/e/2PACX-1vRUYAFhrb4inGGdmZV
 It's trending topic, and you also want to transform your team and start seeing all the advantages of the agile world, but it is not enough to call a few daily meetings, beers for retrospective sessions and enforce a demo session in addition to writing a list of tasks in the left column and fill it all with Postits. 
 
 It is necessary to work together and travel a long journey to the top of the team's success and reach its maturity. I will share the experience of expectations compared to reality and what can be expected when transforming a team's way of working
-
+<div class="blog-content singleiconp">
+    <a href="http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23codemoMadrid&url=https://b3a.dev/talks/t3chfest-2018/" target="_blank" class="talklisticons btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>
+</div>
 
 
 <br/>

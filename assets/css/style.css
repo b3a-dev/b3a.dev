@@ -105,6 +105,21 @@ Also copied and edited two files to add class for the logo:
   padding-bottom: 30px !important;
 }
 
+.talksinglebutton{
+  margin-bottom: 6em;
+}
+
+.talklisticons {
+  text-align: right !important;
+  padding: 2px 10px !important;
+  margin-top: 0px !important;
+}
+
+.singleiconp {
+  text-align: right;
+}
+
+
 /* Default style */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);

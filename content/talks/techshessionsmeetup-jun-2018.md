@@ -8,7 +8,9 @@ googleslides: https://docs.google.com/presentation/d/e/2PACX-1vT8_TmBeAtoBpt0X0f
 
 ---
 Everyone of us have been a candidate in a selection process after applying for a position in a company, having to pass several interviews and tech tests. But, what happens when you are the one at the other side of the table? This talk shares with real life examples how to face the desing of a selection process, from profiles definition to technical aptitude test, how to get "the truth" out of your candidates :)
-
+<div class="blog-content singleiconp">
+    <a href="http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23codemoMadrid&url=https://b3a.dev/talks/techshessionsmeetup-jun-2018/" target="_blank" class="talklisticons btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>
+</div>
 
 <br/>
 <br/>
