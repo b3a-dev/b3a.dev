@@ -119,6 +119,11 @@ Also copied and edited two files to add class for the logo:
   text-align: right;
 }
 
+#eventname {
+  font-size: larger;
+  color: #333;
+}
+
 
 /* Default style */
 
