@@ -11,33 +11,26 @@
             <div class="col-md-12">
                 {{ $delay := mul $index 100 }}
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
-                    <div class="team-img">
-                        <a href="{{ .linktodetail }}"><img src="{{ .image }}" class="team-pic" alt="event"></a>
-                    </div>
                     <a href="{{ .linktodetail }}"><h3 class="team_name">{{ .name }}</h3></a>
                     {{ with .date }}<div class="team_designation">{{ . }}</div>{{ end }}
                     {{ with .event }}<p class="team_designation">{{ . }}</p>{{ end }}
                     
                     {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
                     <p class="social-icons">
-                        {{ with .youtube }}
-                        <a href="{{ . }}" class="facebook" target="_blank">
-                            <i class="ion-social-youtube"></i>
+                        <a href="{{ .linktodetail }}/#recording" class="facebook">
+                            <i class="ion-social-youtube"></i> Recording
                         </a>
-                        {{ end }}
                         {{ with .medium }}
                         <a href="{{ . }}" target="_blank">
-                            <i class="ion-ios-paper"></i>
+                            <i class="ion-ios-paper"></i> Medium
                         </a>
                         {{ end }}
-                        {{ with .slides }}
-                        <a href="{{ . }}" target="_blank">
-                            <i class="ion-android-document"></i>
+                        <a href="{{ .linktodetail }}/#slides">
+                            <i class="ion-android-document"></i> Slides
                         </a>
-                        {{ end }}
                         {{ with .linktotweet }}
                         <a href="{{ . }}" target="_blank">
-                            <i class="ion-social-twitter"></i>
+                            <i class="ion-social-twitter"></i> Tweet
                         </a>
                         {{ end }}
                     </p>
