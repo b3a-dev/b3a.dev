@@ -17,17 +17,20 @@
                     
                     {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
                     <p class="social-icons">
-                        <a href="{{ .linktodetail }}/#recording" class="facebook">
-                            <i class="ion-social-youtube"></i> Recording
-                        </a>
-                        {{ with .medium }}
-                        <a href="{{ . }}" target="_blank">
-                            <i class="ion-ios-paper"></i> Medium
-                        </a>
+                        {{ if .medium }}
+                            {{ with .medium }}
+                            <a href="{{ . }}" target="_blank">
+                                <i class="ion-ios-paper"></i> Medium
+                            </a>
+                            {{ end }}
+                        {{ else }}
+                            <a href="{{ .linktodetail }}/#recording" class="facebook">
+                                <i class="ion-social-youtube"></i> Recording
+                            </a>
+                            <a href="{{ .linktodetail }}/#slides">
+                                <i class="ion-android-document"></i> Slides
+                            </a>
                         {{ end }}
-                        <a href="{{ .linktodetail }}/#slides">
-                            <i class="ion-android-document"></i> Slides
-                        </a>
                         {{ with .linktotweet }}
                         <a href="{{ . }}" target="_blank">
                             <i class="ion-social-twitter"></i> Tweet
