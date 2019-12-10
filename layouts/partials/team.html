@@ -12,8 +12,8 @@
                 {{ $delay := mul $index 100 }}
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
                     <a href="{{ .linktodetail }}"><h3 class="team_name">{{ .name }}</h3></a>
-                    {{ with .date }}<div class="team_designation">{{ . }}</div>{{ end }}
-                    {{ with .event }}<p class="team_designation">{{ . }}</p>{{ end }}
+                    {{ with .event }}<div class="team_designation">{{ . }}</div>{{ end }}
+                    {{ with .date }}<p class="team_designation">{{ . }}</p>{{ end }}
                     
                     {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
                     <p class="social-icons">
