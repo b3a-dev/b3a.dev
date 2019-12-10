@@ -3,7 +3,6 @@ title: "The other side of the table"
 date: 2018-06-02T12:29:40+06:00
 image: images/talks/takl-2-theothersideofthetable2018.jpg
 tags: ["Tech SHEssions Meetup"]
-slides  : /slides/The_other_side_of_the_table_2018.pdf
 googleslides: https://docs.google.com/presentation/d/e/2PACX-1vT8_TmBeAtoBpt0X0f6HMPqgziAnT4B81JTfsL78sd2SRAozFP39m9Fw9qw50FGgZXPHYcgeAei-482/embed?start=false&loop=false&delayms=3000
 
 ---

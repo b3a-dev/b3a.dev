@@ -3,7 +3,6 @@ title: "Alcanzando la madurez con equipos agile"
 date: 2018-03-02T12:29:40+06:00
 image: images/talks/takl-1-t3chfest2018.jpg
 tags: ["T3chFest open space"]
-slides  : /slides/Alcanzando_la_madurez_con_equipos_agile_T3chFest_2018.pdf
 googleslides: https://docs.google.com/presentation/d/e/2PACX-1vRUYAFhrb4inGGdmZVDJtrQpkpmKZYurUxX5c6ovrgu1VWpOpMFGRHByPWsP3eJl6LFCkK9rfVWaoXO/embed?start=false&loop=false&delayms=3000
 
 ---

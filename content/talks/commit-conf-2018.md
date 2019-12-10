@@ -4,7 +4,6 @@ date: 2018-11-24T12:29:40+06:00
 image: images/talks/takl-5-fromhiringtoproductioncommit20.jpg
 tags: ["Commit-Conf"]
 youtube    : https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
-slides  : /slides/From_Hiring_to_Production_commitConf_2018.pdf
 googleslides: https://docs.google.com/presentation/d/e/2PACX-1vT3n2dZvwZKp_8BsK8iicGs32RyrSZmcoOz9N7WgIpdNYHBBjL8w-UmcqOJYMQ6hBoh0cLD64VhoZxW/embed?start=false&loop=false&delayms=3000
 
 ---

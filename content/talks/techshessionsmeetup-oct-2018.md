@@ -4,7 +4,6 @@ date: 2018-10-22T12:29:40+06:00
 image: images/talks/takl-4-assistants2018.png
 tags: ["Tech SHEssions Meetup"]
 youtube    : https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
-slides  : /slides/How_may_I_help_yout_2018.pdf
 googleslides: https://docs.google.com/presentation/d/e/2PACX-1vTirJWfenBWZOVOxvOvb5yuwrs1ekGsCiYJeS3sCskqsq9pZZhEEljO6kXoPRoNWT0E8tADpk1Uk6gb/embed?start=false&loop=false&delayms=3000
 
 ---

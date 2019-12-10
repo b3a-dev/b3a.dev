@@ -4,7 +4,6 @@ date: 2019-02-28T12:29:40+06:00
 image: images/talks/takl-6-devopsspain2019.jpg
 tags: ["DevOps Spain"]
 youtube    : https://youtu.be/3H7CXQBrGpM
-slides  : /slides/Cloud_Native_Monitoring_With_Prometheus_devOpsSpain_2019.pdf
 linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23DevopsSpain&url=https://youtu.be/3H7CXQBrGpM
 googleslides: https://docs.google.com/presentation/d/e/2PACX-1vQ7NaGDkpGalizrnRYgqHD-De3VfRSl2xKNnKH1NkFmzc9gpsSHUw_WwCg4Bhh3Sw/embed?start=false&loop=false&delayms=3000
 

@@ -4,7 +4,6 @@ date: 2019-11-23T12:29:40+06:00
 image: images/talks/takl-10-commitconf2019_2.jpg
 tags: ["Commit-Conf"]
 youtube    : https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
-slides  : /slides/cloud_native_monitoring_with_prometheus_Codemotion_2019.pdf
 linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23commitconf&url=https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
 googleslides: https://docs.google.com/presentation/d/e/2PACX-1vT84sh-j6N2oQ6NiQvJYtUMpnezYtPjrashhj0DWCsSMl82ZhL5Gv5GQG9-CHdxxI7DmXxYXuF29ZOF/embed?start=false&loop=false&delayms=3000
 
