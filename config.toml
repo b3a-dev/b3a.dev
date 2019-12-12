@@ -34,8 +34,8 @@ googleAnalitycsID = "G-4PV7KH6BP9"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Airspace Hugo theme"
-    author = "Themefisher"
+    description = "beatrizmrg site"
+    author = "beatrizmrg"
 
     # Banner Section
     [params.banner]
