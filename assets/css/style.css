@@ -96,6 +96,10 @@ Also copied and edited two files to add class for the logo:
   color: #fff;
 }
 
+#devicon {
+  margin-bottom: 7px;
+}
+
 .team_designation {
   font-size: 15px !important;
 }
