@@ -2,13 +2,20 @@ enable  : true
 title   : Latest Contributions
 subtitle: I would like to share some of my latest posts, talks at technical events, interviews and my most recent projects.
 members  :
+  - name  : Creating a new site with Hugo and Netlify, powered also by analytics, automated certs or custom domain config.
+    image : images/talks/takl-10-commitconf2019_2.jpg
+    date : December 12, 2019
+    event : DEV
+    dev: https://dev.to/b3adev/creating-a-new-site-with-hugo-and-netlify-powered-also-by-analytics-automated-certs-or-custom-domain-config-2p48
+    description : I recently decided to create a new site, exploring the currently available options and decided on Hugo and Netlify. Hugo is nowadays one of the most popular open-source static site generators, very flexible, counts with shortcodes and plenty of themes. There is also a cli available, which burst the speed to have your site ready to be published. Netlify then covers all the aspects from continuous deployment workflow with Git integration, supporting several branches and versions, automated certificates renewal or DNS if you choose to use a custom domain.
+    linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20post:%20“Creating%20a%20new%20site%20with%20Hugo%20and%20Netlify,%20powered%20also%20by%20analytics,%20automated%20certs%20or%20custom…”%20by%20%40beatrizmrg%20%23GoHugoIO%20%23Netlify%20%23googleanalytics%20%23DEVcommunity&url=https://dev.to/b3adev/creating-a-new-site-with-hugo-and-netlify-powered-also-by-analytics-automated-certs-or-custom-domain-config-2p48
+    linktodetail: https://dev.to/b3adev/creating-a-new-site-with-hugo-and-netlify-powered-also-by-analytics-automated-certs-or-custom-domain-config-2p48
+
   - name  : Cloud-native Monitoring with Prometheus
     image : images/talks/takl-10-commitconf2019_2.jpg
     date : November 23, 2019
     event : Commit-Conf
     description : In the world of cloud-native applications and microservices, Prometheus has become the standard for monitoring.This talk shows  why, and what differentiates it from the more traditional approaches. How it can be used to monitor both systems and applications, and how to develop prometheus-native applications.It also shows how to integrate Alertmanager with other alert systems or incident management systems already deployed.
-    youtube    : https://www.youtube.com/watch?v=YVxTSht-zc0&feature=youtu.be&t=10332
-    slides  : /slides/cloud_native_monitoring_with_prometheus_Codemotion_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23commitconf&url=https://b3a.dev/talks/commit-conf-2019/
     linktodetail: /talks/commit-conf-2019/
 
@@ -17,8 +24,6 @@ members  :
     date : September 25, 2019
     event : Codemotion Madrid
     description : In the world of cloud-native applications and microservices, Prometheus has become the standard for monitoring.This talk shows  why, and what differentiates it from the more traditional approaches. How it can be used to monitor both systems and applications, and how to develop prometheus-native applications.It also shows how to integrate Alertmanager with other alert systems or incident management systems already deployed.
-    youtube    : https://youtu.be/ZGckorAJ1IQ
-    slides  : /slides/cloud_native_monitoring_with_prometheus_Codemotion_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23codemoMadrid&url=https://b3a.dev/talks/codemotion-2019/
     linktodetail: /talks/codemotion-2019/
 
@@ -27,7 +32,6 @@ members  :
     date : June 17, 2019
     event : Cloud Native Madrid Meetup
     description : Is it possible that the future of networking and security in Microservices will be based on technology from the past? Several open-source Kubernetes tools are already using eBPF. Mainly related to networking, monitoring, and security. This talk will guide you from the understanding of Linux kernel BPF concept, through the advantages and features that bring to microservices environments, to some known tools that currently make use of it, such Cilium, Weave or Istio.
-    slides  : /slides/Back_to_the_future_with_eBPF_CNCFmeetup_2019.pdf
     linktodetail: /talks/cncfmeetup-jun-2019/
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Back%20to%20the%20Future%20with%20eBPF”%20by%20%40beatrizmrg%20%23ebpf%20%23CloudNativeMad&url=https://b3a.dev/talks/cncfmeetup-jun-2019/
 
@@ -36,8 +40,6 @@ members  :
     date : May 20, 2019
     event : KubeCon + CloudNativeCon Europe
     description : Is it possible that the future of networking and security in Microservices will be based on technology from the past? Several open-source Kubernetes tools are already using eBPF. Mainly related to networking, monitoring, and security. This talk will guide you from the understanding of Linux kernel BPF concept, through the advantages and features that bring to microservices environments, to some known tools that currently make use of it, such Cilium, Weave or Istio.
-    youtube    : https://youtu.be/AQNz_16CaiI
-    slides  : /slides/Back_to_the_Future_with_eBPF_KubeCon_Europe_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Back%20to%20the%20Future%20with%20eBPF”%20by%20%40beatrizmrg%20%23eBPF%20%23KubeCon%20%23CloundNativeCon&url=https://b3a.dev/talks/kubeconeu-2019/
     linktodetail: /talks/kubeconeu-2019/
 
@@ -55,8 +57,6 @@ members  :
     date : February 28, 2019
     event : DevOps Spain
     description : In the world of cloud-native applications and microservices, Prometheus has become the standard for monitoring.This talk shows  why, and what differentiates it from the more traditional approaches. How it can be used to monitor both systems and applications, and how to develop prometheus-native applications.It also shows how to integrate Alertmanager with other alert systems or incident management systems already deployed.
-    youtube    : https://youtu.be/3H7CXQBrGpM
-    slides  : /slides/Cloud_Native_Monitoring_With_Prometheus_devOpsSpain_2019.pdf
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20%23PrometheusIO%20%23DevopsSpain&url=https://b3a.dev/talks/devops-spain-2019/
     linktodetail: /talks/devops-spain-2019/
 
@@ -74,7 +74,6 @@ members  :
     date : November 24, 2018
     event : Commit-Conf
     description : You need to carry out a project with a new team and want it to be productive from day zero, however the steps necessary to achieve it are not easy. Starting by finding the profiles that will be part of your team. How to design an effective selection process? Will they be the right people? Will i have been wrong? Once inside we want them to write commits and contribute ideas as soon as possible and for this it will be important to make a good on-boarding process.
-    slides  : /slides/From_Hiring_to_Production_commitConf_2018.pdf
     linktodetail: /talks/commit-conf-2018/
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“From%20Hiring%20to%20Production”%20by%20%40beatrizmrg%20%23commitconf&url=https://b3a.dev/talks/commit-conf-2018/
 
@@ -83,7 +82,6 @@ members  :
     date : October 22, 2018
     event : Tech SHEssions Meetup
     description : Nowadays, Artificial Intelligence Assistants have become part of our day a day lives. Alexa (Amazon), Siri (Apple), Watson assistant(IBM), Google assistant (Google), Cortana (MS), we ask them to call someone while we are driving, to get us to a place, to play some music, but also to show us pictures of us with John Doe, and they recognise him in the pictures and show us only those in which he is present, we also ask for the purchase in the supermarket and the products are delivered home hours later… This talk pursues to raise awareness of the huge amount of data we provide and the dangerous possible consequences. And also how accessible is this technology by showcasing how to build a AI powered bot with Google assistant.
-    slides  : /slides/How_may_I_help_yout_2018.pdf
     linktodetail: /talks/techshessionsmeetup-oct-2018/
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“How%20may%20I%20help%20you”%20by%20%40beatrizmrg%20%23techshessions&url=https://b3a.dev/talks/techshessionsmeetup-oct-2018/
 
@@ -92,7 +90,6 @@ members  :
     date : July 16, 2018
     event : Tech SHEssions Meetup
     description : What a better way to learn about blockchain that implementing one? This talk is distributed in three sections and covers from basic concepts, to all those fancy words that souround blockchain nowadays, explaining them in a simple way. The implementation examples are in python, and use Docker containers as deployment method. Once we have our chain we do not only want to interact with it, we also want to build a whole network, working with the consensus algorithm.
-    slides  : /slides/Learning_blockchain_from_the_inside_2018.pdf
     linktodetail: /talks/techshessionsmeetup-jul-2018/
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Learning%20Blockchain%20from%20the%20inside”%20by%20%40beatrizmrg%20%23blockchain%20%23techshessions&url=https://b3a.dev/talks/techshessionsmeetup-jul-2018/
 
@@ -101,7 +98,6 @@ members  :
     date : June 2, 2018
     event : Tech SHEssions Meetup
     description : Everyone of us have been a candidate in a selection process after applying for a position in a company, having to pass several interviews and tech tests. But, what happens when you are the one at the other side of the table? This talk shares with real life examples how to face the desing of a selection process, from profiles definition to technical aptitude test, how to get "the truth" out of your candidates :)
-    slides  : /slides/The_other_side_of_the_table_2018.pdf
     linktodetail: /talks/techshessionsmeetup-jun-2018/
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“The%20other%20side%20of%20the%20table”%20by%20%40beatrizmrg%20%23techshessions&url=https://b3a.dev/talks/techshessionsmeetup-jun-2018/
 
@@ -110,7 +106,6 @@ members  :
     date : March 2, 2018
     event : T3chFest open space
     description : It's trending topic, and you also want to transform your team and start seeing all the advantages of the agile world, but it is not enough to call a few daily meetings, beers for retrospective sessions and enforce a demo session in addition to writing a list of tasks in the left column and fill it all with Postits. It is necessary to work together and travel a long journey to the top of the team's success and reach its maturity. I will share the experience of expectations compared to reality and what can be expected when transforming a team's way of working
-    slides  : /slides/Alcanzando_la_madurez_con_equipos_agile_T3chFest_2018.pdf
     linktodetail: /talks/t3chfest-2018/
     linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Alcanzandoo%20la%20madurez%20con%20equipos%20agile”%20by%20%40beatrizmrg%20%23agile%20%23T3chFest&url=https://b3a.dev/talks/t3chfest-2018/
 

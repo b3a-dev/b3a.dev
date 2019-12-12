@@ -23,6 +23,12 @@
                                 <i class="ion-ios-paper"></i> Medium
                             </a>
                             {{ end }}
+                        {{ else if .dev}}
+                            {{ with .dev }}
+                            <a href="{{ . }}" target="_blank">
+                                <i class="ion-ios-paper"></i> DEV
+                            </a>
+                            {{ end }}
                         {{ else }}
                             <a href="{{ .linktodetail }}/#recording" class="facebook">
                                 <i class="ion-social-youtube"></i> Recording
