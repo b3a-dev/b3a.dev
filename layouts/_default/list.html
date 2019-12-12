@@ -9,17 +9,17 @@
                 {{ range .Data.Pages }}
                 <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6 col-sm-12">
                             <div class="blog-post-image">
-                                <a href="{{ .Params.mediumlink }}">
+                                <a href="{{ .Params.mediumdevlink }}">
                                     {{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="blog-content">
                                 <h2 class="blogpost-title">
-                                    <a href="{{ .Params.mediumlink }}">{{ .Title }}</a>
+                                    <a href="{{ .Params.mediumdevlink }}">{{ .Title }}</a>
                                 </h2>
                                 <div class="blog-meta">
                                     <span>{{ dateFormat "January 2, 2006" .Date }}</span>
@@ -36,7 +36,7 @@
                                 <p>
                                     {{ .Summary }}
                                 </p>
-                                {{ with .Params.mediumlink }}<a href="{{ . }}" target="_blank" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-ios-paper"></i> Continue Reading</a>{{ end }}
+                                {{ with .Params.mediumdevlink }}<a href="{{ . }}" target="_blank" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-ios-paper"></i> Continue Reading</a>{{ end }}
                                 {{ with .Params.linktotweet }}<a href="{{ . }}" target="_blank" class="btn btn-dafault btn-details hvr-bounce-to-right"><i class="ion-social-twitter"></i> Tweet</a>{{ end }}
                             </div>
                         </div>

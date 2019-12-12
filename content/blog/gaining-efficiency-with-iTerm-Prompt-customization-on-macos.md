@@ -5,7 +5,7 @@ description : "Gaining efficiency with iTerm Prompt customization on MacOS"
 type: post
 image: images/blog/iTerm-post-1.png
 author: Beatriz Martínez
-mediumlink: https://medium.com/@beatrizmrg/gaining-efficiency-with-iterm-prompt-customization-on-macos-3ad212f5bfde
+mediumdevlink: https://medium.com/@beatrizmrg/gaining-efficiency-with-iterm-prompt-customization-on-macos-3ad212f5bfde
 tags: ["Terminal", "Iterm2", "Mac Osx", "Prompt", "Customization"]
 linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20post:%20“Gaining%20efficiency%20with%20PiTerm%20Prompt%20customization%20on%20MacOS"%20by%20%40beatrizmrg&url=https://medium.com/@beatrizmrg/gaining-efficiency-with-iterm-prompt-customization-on-macos-3ad212f5bfde
 ---

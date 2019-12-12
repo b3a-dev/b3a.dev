@@ -3,7 +3,7 @@ title   : Latest Contributions
 subtitle: I would like to share some of my latest posts, talks at technical events, interviews and my most recent projects.
 members  :
   - name  : Creating a new site with Hugo and Netlify, powered also by analytics, automated certs or custom domain config.
-    image : images/talks/takl-10-commitconf2019_2.jpg
+    image : images/blog/hugo-netlify-post-3.png
     date : December 12, 2019
     event : DEV
     dev: https://dev.to/b3adev/creating-a-new-site-with-hugo-and-netlify-powered-also-by-analytics-automated-certs-or-custom-domain-config-2p48
