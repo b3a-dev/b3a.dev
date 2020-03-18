@@ -2,6 +2,22 @@ enable  : true
 title   : Latest Contributions
 subtitle: I would like to share some of my latest posts, talks at technical events, interviews and my most recent projects.
 members  :
+  - name  : Cloud-native Monitoring with Prometheus
+    image : images/talks/takl-12-bilbostack2019.jpg
+    date : Januray 25, 2020
+    event: BilboStack
+    description : In the world of cloud-native applications and microservices, Prometheus has become the standard for monitoring. This talk shows why, and what differentiates it from the more traditional approaches. How it can be used to monitor both systems and applications, and how to develop Prometheus-native applications. It also shows the best practices when designing alert systems and integrate them with incident management tools that maybe already deployed. Don’t miss it, the best "take-home moral" about monitoring is awaiting.
+    linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20and%20%40Laura_Morillo%20%23PrometheusIO%20%23bilbostack20&url=https://b3a.dev/talks/bilbostack-2020/
+    linktodetail: /talks/bilbostack-2020/
+
+  - name  : Cloud-native Monitoring with Prometheus
+    image : images/talks/takl-11-gdgdevfestmad2019.jpg
+    date : December 18, 2019
+    event: Santa Cloud, GDG DevFest Madrid
+    description : In the world of cloud-native applications and microservices, Prometheus has become the standard for monitoring. This talk shows why, and what differentiates it from the more traditional approaches. How it can be used to monitor both systems and applications, and how to develop Prometheus-native applications. It also shows the best practices when designing alert systems and integrate them with incident management tools that maybe already deployed. Don’t miss it, the best "take-home moral" about monitoring is awaiting.
+    linktotweet: http://twitter.com/intent/tweet?text=Check%20out%20this%20talk:%20“Cloud-native%20monitoring%20with%20Prometheus”%20by%20%40beatrizmrg%20and%20%40Laura_Morillo%20%23PrometheusIO%20%23SantaCloud&url=https://b3a.dev/talks/gdg-dev-fest-madrid-2019/
+    linktodetail: /talks/gdg-dev-fest-madrid-2019/
+
   - name  : Creating a new site with Hugo and Netlify, powered also by analytics, automated certs or custom domain config.
     image : images/blog/hugo-netlify-post-3.png
     date : December 12, 2019
